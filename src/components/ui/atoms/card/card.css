@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+  border: 1px solid #e7eaf3;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container img.card-item {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
